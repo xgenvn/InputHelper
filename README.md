@@ -2,8 +2,9 @@
 Install this repository via [Package Control](http://wbond.net/sublime_packages/package_control)
 
 ## Manual Install
-cd ~/.config/sublime-text-2/Packages
-git clone https://github.com/xgenvn/InputHelper.git
+>cd ~/.config/sublime-text-2/Packages
+
+>git clone https://github.com/xgenvn/InputHelper.git
 
 ## Usage
 - FIRST, make sure you can use your Input Method normally (test it in some textinput field)

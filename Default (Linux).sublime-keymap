@@ -1,0 +1,3 @@
+[
+  { "keys": ["ctrl+shift+z"], "command": "input_helper" }
+]

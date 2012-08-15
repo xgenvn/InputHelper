@@ -36,6 +36,7 @@ class SimpleTextInput:
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         window.set_title("Input Helper")
         window.set_default_size(300,60)
+        window.set_position(gtk.WIN_POS_CENTER_ALWAYS)
         window.connect("destroy", self.destroy)
         window.set_border_width(10)
         self.textInput = gtk.Entry()

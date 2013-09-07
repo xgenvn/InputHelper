@@ -27,6 +27,7 @@ class SimpleTextInput:
         # create a new window
         self.print_text_flag = False
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
+        window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_DIALOG)
         window.set_title("Input Helper")
         window.set_default_size(300, 60)
         window.set_position(gtk.WIN_POS_CENTER_ALWAYS)

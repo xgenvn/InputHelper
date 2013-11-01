@@ -24,4 +24,7 @@ class InputHelperCommand(sublime_plugin.TextCommand):
 
         if text_output:
             for region in sel:
-                self.view.replace(edit, region, text_output)
+                if region.size() == 0:
+                    self.view.insert(edit, region.end(), text_output)
+                else:
+                    self.view.replace(edit, region, text_output)

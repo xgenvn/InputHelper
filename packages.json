@@ -1,20 +1,16 @@
 {
-    "schema_version": "1.0",
+    "schema_version": "2.0",
     "packages": [
         {
             "name": "InputHelper",
-            "description": "Open new input form to input text using IMEs like SCIM,ibus. Temporarily solve input problem on Linux.",
             "author": "Anh Tu Nguyen <xgenvn@gmail.com>",
-            "homepage": "https://github.com/xgenvn/InputHelper",
-            "last_modified": "2012-07-17 10:55:22",
-            "platforms": {
-                "linux": [
-                    {
-                        "version": "1.0.0",
-                        "url": "https://nodeload.github.com/xgenvn/InputHelper/zipball/v1.0"
-                    }
-                ]
-            }
+            "details": "https://github.com/xgenvn/InputHelper",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/xgenvn/InputHelper/tags"
+                }
+            ]
         }
     ]
 }
